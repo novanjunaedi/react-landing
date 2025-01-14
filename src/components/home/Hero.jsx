@@ -1,6 +1,10 @@
 const Hero = () => {
     return (
-        <section>Hero</section>
+        <section>
+            <div className="container mx-auto">
+                <h2>This is Hero</h2>
+            </div>
+        </section>
     );
 };
 

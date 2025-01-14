@@ -4,11 +4,13 @@ import Hero from "@/components/home/Hero";
 
 const App = () => {
   return (
-    <main>
+    <>
       <Navbar />
-      <Hero />
+      <main className="min-h-screen">
+        <Hero />
+      </main>
       <Footer />
-    </main>
+    </>
   );
 };
 
